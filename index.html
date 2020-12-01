@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="UAS">
+    <meta name="apple-mobile-web-app-title" content="UAS">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-navbutton-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/UAS Rounded.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="/assets/UAS.png">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Anime Tapper</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="tap-container">
+        <div class="top-container">
+            <h1>Anime Tapper</h1>
+            <p>Pre-Alpha v0.1</p>
+            <div class="point-counter">
+                <p><span id="Points">0</span> Points</p>
+            </div>
+        </div>
+        <div class="play-area" onclick="pop()">
+<div class="ability-indicator">
+    <p class="indication">Placeholder</p>
+    <h6><span>+10</span> Click Rate</h6>
+</div>
+<div class="circle-img">
+    <img class="active-character" id="active-character" src="Banner/Bakugo.png">
+</div>
+
+<div class="character-stats">
+    <h4>Bakugo</h4>
+    <p>Click Rate: <span id="current-click-rate">0</span></p>
+</div>
+        </div>
+    </div>
+
+    <audio id="pop" controls>
+        <source src="/Sound Effects/pop.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+      <audio id="success" controls>
+        <source src="/Sound Effects/success.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+      <script src="/counter.js">
+
+      </script>
+</body>
+</html>

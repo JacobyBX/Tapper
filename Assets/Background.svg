@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="358" viewBox="0 0 375 358">
+  <defs>
+    <clipPath id="clip-Background">
+      <rect width="375" height="358"/>
+    </clipPath>
+  </defs>
+  <g id="Background" clip-path="url(#clip-Background)">
+    <rect id="Rectangle_23" data-name="Rectangle 23" width="375" height="358" fill="#b93332"/>
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="139.5" cy="139.5" r="139.5" transform="translate(48 63)" fill="#f0a39c" opacity="0.1"/>
+  </g>
+</svg>
