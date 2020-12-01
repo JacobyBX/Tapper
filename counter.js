@@ -2,7 +2,7 @@ window.smallPopCount = 0;
 
 document.getElementById("Points").innerHTML = localStorage.getItem("A3muIln");
 window.currentPoints = localStorage.getItem("A3muIln")
-if(localStorage.getItem("A3muIln") == "NaN"){
+if(localStorage.getItem("A3muIln") == ""){
     localStorage.setItem("A3muIln", 0);
 }
 function pop(){
