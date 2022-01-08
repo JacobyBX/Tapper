@@ -10,6 +10,7 @@
     <meta name="theme-color" content="#ffffff">
     <meta name="msapplication-navbutton-color" content="#ffffff">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="stylesheet" href="/vivify.min.css">
     <meta name="msapplication-starturl" content="/">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/png" sizes="192x192" href="/assets/UAS Rounded.png">
@@ -21,7 +22,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="tap-container">
+    <div class="center-container">
+        <div class="point-wrapper">
+            <div id="addPointAnimation" class="addPoints ">
+                <p id="animationItem" class="vivify popInTop">+1 Point</p>
+             </div>
+        </div>
+
+    
+    <div id="tap-container" class="tap-container">
         <div class="top-container">
             <h1>Anime Tapper</h1>
             <p>Pre-Alpha v0.1</p>
@@ -29,6 +38,14 @@
                 <p><span id="Points">0</span> Points</p>
             </div>
         </div>
+
+        <button class="play-item p1" onclick="pop()">
+            <img src="/Banner/Bakugo.png">
+            <h3>Bakugo</h3>
+            <p><span>15P</span>/Second</p>
+        </button>
+
+        <!-----
         <div class="play-area" onclick="pop()">
 <div class="ability-indicator">
     <p class="indication">Placeholder</p>
@@ -40,10 +57,52 @@
 
 <div class="character-stats">
     <h4>Bakugo</h4>
-    <p>Click Rate: <span id="current-click-rate">0</span></p>
+    <p>Click Rate: <span id="current-click-rate">15</span></p>
 </div>
         </div>
+        ---->
     </div>
+
+
+    <section class="usables">
+        <h3>Upgrades</h3>
+        <div class="usable-item first">
+            <div class="usable-top">
+                <h4>Placeholder Item</h4>
+                <p><span id="tapCount1">+10</span> Click Rate</p>
+                <h6>Cost: <span id="cost1">120</span></h6>
+            </div>
+          <p id="description1">Katsuki throws his hands back and uses explosions to propel himself. He uses this both on the ground to increase his speed and through the air to achieve a pseudo form of flight.</p>
+        </div>
+
+        <div class="usable-item second">
+            <div class="usable-top">
+                <h4>Placeholder Item</h4>
+                <p><span id="tapCount2">+10</span> Click Rate</p>
+                <h6>Cost: <span id="cost2">120</span></h6>
+            </div>
+          <p id="description2">Katsuki throws his hands back and uses explosions to propel himself. He uses this both on the ground to increase his speed and through the air to achieve a pseudo form of flight.</p>
+        </div>
+
+        <div class="usable-item first">
+            <div class="usable-top">
+                <h4>Placeholder Item</h4>
+                <p><span id="tapCount3">+10</span> Click Rate</p>
+                <h6>Cost: <span id="cost3">120</span></h6>
+            </div>
+          <p id="description3">Katsuki throws his hands back and uses explosions to propel himself. He uses this both on the ground to increase his speed and through the air to achieve a pseudo form of flight.</p>
+        </div>
+
+        <div class="usable-item second">
+            <div class="usable-top">
+                <h4>Placeholder Item</h4>
+                <p><span id="tapCount4">+10</span> Click Rate</p>
+                <h6>Cost: <span id="cost4">120</span></h6>
+            </div>
+          <p id="description4">Katsuki throws his hands back and uses explosions to propel himself. He uses this both on the ground to increase his speed and through the air to achieve a pseudo form of flight.</p>
+        </div>
+    </section>
+</div>
 
     <audio id="pop" controls>
         <source src="/Sound Effects/pop.mp3" type="audio/mpeg">

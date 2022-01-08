@@ -27,7 +27,22 @@ body {
     font-size: 12px;
     margin-left: 20px;}
 
-.tap-container {background-color: #B93332;width: 100%;padding-bottom: 20px;margin-bottom: 17px;}
+.tap-container {background-image: url(assets/background1.svg);width: 100%;padding-bottom: 20px;margin-bottom: 17px;border-radius: 0px 0px 11px 11px;height: 350px;}
+
+.play-item > img  {width: 112px;height: 112px;object-fit: cover;border-radius: 250px;}
+
+.play-item {cursor: pointer; background-color: transparent;
+  border: none;
+  color: white;padding: 10px;border-radius: 7px;transition: 0.1s ease;}
+
+  .play-item:focus {outline: none;}
+
+  .play-item:hover {background-color: rgba(0, 0, 0, 0.185);}
+
+.p1 {    position: absolute;
+  top: 133px;
+  margin-left: 95px;
+ }
 
 .point-counter {float: right;
   text-align: right;
@@ -82,3 +97,40 @@ body {
     font-size: 11px;
     color: white;
     padding-top: 0px;}
+
+    .center-container {margin: auto; width: 920px;}
+
+    .addPoints > p {width: fit-content;background-color: white;padding-left: 10px;padding-right: 11px;border-radius: 50px;font-weight: 600;padding-top: 5px;padding-bottom: 5px;}
+
+    .addPoints {margin: auto; width: fit-content;;}
+
+    .point-wrapper {position: absolute; z-index: 150;width: 920px;margin-top: 15px;}
+
+    #addPointAnimation {display: none;}
+
+    .filter {filter: brightness(1.1);}
+
+    /*-------------------------Usables------------------------*/
+
+
+.usables{border: solid 1px lightgray;border-radius: 11px;}
+
+.usables > h3 {text-align: center;font-weight: 600;padding-bottom: 15px;padding-top: 15px;}
+
+    .usable-top > h4 {font-size: 20px;font-weight: 600;}
+
+    .usable-top > p {font-size: 14px;}
+
+    .usable-top >  h6 {font-size: 12px; width: fit-content;;color: white; padding-left: 7px;padding-right: 7px;border-radius: 50px;float: right;    margin-top: -30px;
+      margin-right: 16px;}
+
+      .usable-item > p {font-size: 14px; margin-top: 7px;    line-height: 26px;}
+    .usable-item {width: 44%;display: inline-block;margin-bottom: 28px;}
+
+    .usable-item:hover {cursor: pointer;}
+
+    .second {margin-left: 34px;}
+
+    .first {margin-left: 32px;}
+
+    audio {display: none;}
